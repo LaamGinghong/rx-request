@@ -4,6 +4,15 @@
   "description": "A web ajax request function based by rxjs.",
   "main": "index.js",
   "scripts": {
+    "setup": "rm -rf node_modules && pnpm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaamGinghong/rx-request.git"
+  },
+  "homepage": "https://github.com/LaamGinghong/rx-request/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/LaamGinghong/rx-request/issues"
   },
   "keywords": [
     "rxjs",
