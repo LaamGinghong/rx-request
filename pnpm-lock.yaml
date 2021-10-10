@@ -13,6 +13,7 @@ specifiers:
   husky: ^7.0.2
   lint-staged: ^11.2.2
   prettier: ^2.4.1
+  rxjs: ^7.4.0
   typescript: ^4.4.3
 
 devDependencies:
@@ -28,6 +29,7 @@ devDependencies:
   husky: registry.nlark.com/husky/7.0.2
   lint-staged: registry.npmmirror.com/lint-staged/11.2.2
   prettier: registry.nlark.com/prettier/2.4.1
+  rxjs: registry.npmmirror.com/rxjs/7.4.0
   typescript: registry.npmmirror.com/typescript/4.4.3
 
 packages:
@@ -2400,6 +2402,12 @@ packages:
     version: 1.14.1
     dev: true
 
+  registry.nlark.com/tslib/2.1.0:
+    resolution: {integrity: sha1-2mCGDxwuyqVwOrfTm8Bba/mIuXo=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/tslib/download/tslib-2.1.0.tgz}
+    name: tslib
+    version: 2.1.0
+    dev: true
+
   registry.nlark.com/tslib/2.3.1:
     resolution: {integrity: sha1-6KM1rdXOrlGqJh0ypJAVjvBC7wE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/tslib/download/tslib-2.3.1.tgz?cache=0&sync_timestamp=1631509536944&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftslib%2Fdownload%2Ftslib-2.3.1.tgz}
     name: tslib
@@ -3345,6 +3353,14 @@ packages:
     engines: {npm: '>=2.0.0'}
     dependencies:
       tslib: registry.nlark.com/tslib/1.14.1
+    dev: true
+
+  registry.npmmirror.com/rxjs/7.4.0:
+    resolution: {integrity: sha1-oSpE1+6/AW9f8kQbh/KMmlHOvGg=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/rxjs/download/rxjs-7.4.0.tgz}
+    name: rxjs
+    version: 7.4.0
+    dependencies:
+      tslib: registry.nlark.com/tslib/2.1.0
     dev: true
 
   registry.npmmirror.com/signal-exit/3.0.5:
