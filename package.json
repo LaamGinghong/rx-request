@@ -2,26 +2,36 @@
   "name": "rx-request",
   "version": "0.0.0",
   "description": "A web ajax request function based by rxjs.",
-  "main": "index.js",
-  "scripts": {
-    "setup": "rm -rf node_modules && pnpm install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LaamGinghong/rx-request.git"
-  },
-  "homepage": "https://github.com/LaamGinghong/rx-request/blob/main/README.md",
-  "bugs": {
-    "url": "https://github.com/LaamGinghong/rx-request/issues"
-  },
   "keywords": [
     "rxjs",
     "ajax",
     "request"
   ],
+  "homepage": "https://github.com/LaamGinghong/rx-request/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/LaamGinghong/rx-request/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaamGinghong/rx-request.git"
+  },
+  "license": "MIT",
   "author": {
     "name": "LaamGinghong",
     "url": "https://github.com/LaamGinghong"
   },
-  "license": "MIT"
+  "main": "index.js",
+  "scripts": {
+    "setup": "rm -rf node_modules && pnpm install",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-angular": "^13.2.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
 }
